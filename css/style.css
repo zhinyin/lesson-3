@@ -46,12 +46,12 @@ body {
 }
 
 .project div {
-	font-size: 30px;
-	font-family: arial;
+	font-size: 21px;
+	font-family: arial, sans-serif;
 	text-align: center;
-	line-height: 90px;
-	width: 75px;
-	height: 75px;
+	line-height: 70px;
+	width: 60px;
+	height: 60px;
 	color: #555;
 	background-color: #CCCCCC;
 	margin: 20px 0px 80px 20px;
@@ -81,22 +81,22 @@ body {
 	margin: auto 10px;
 	padding: 20px;
 	text-align: center;
-	margin: 20px 10px 200px 20px;
+	margin: 20px 10px 70px 20px;
 
 	float: left;
 }
 
 #link:hover {
-	background-color: black;
+	background-color: white;
 	color: orangered;
 	font-size: 20px;
 	padding: 25px;
 }
 
 img {
-	width: 1000px;
+	width: 100%;
 	font-family: monospace;
-	margin: 20px 10px 80px 20px;
+	margin: 20px 20px 80px 20px;
 }
 
 hr {
@@ -106,4 +106,17 @@ hr {
     border-style: inset;
     border-width: 2px;
     color: #CCCCCC;
+}
+
+#page {
+	width: 900px;
+	height: 2200px;
+    padding: 80px 50px 80px 50px;
+    background-color: white;
+    margin: 100px auto 100px auto; 
+}
+
+html {
+    background-color: #CCCCCC;
+    background-attachment: fixed;
 }
