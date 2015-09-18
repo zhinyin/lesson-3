@@ -9,14 +9,34 @@ body {
 	background-color: white;
 }
 
-h1 {
-	font-family: georgia, serif;
-	font-size: 21px;
-	color:black;
+.container h1 {
+	font-family: arial, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #CCCCCC;
+	padding-bottom: 30px;
 }
 
-p {
-	font-family: georgia, serif;
+.container p {
+	font-family: arial, sans-serif;
+	font-size: 17px;
+	color:black;
+	background-color: white;
+	clear: both;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+.project h1 {
+	font-family: arial, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color:black;
+
+}
+
+.project p {
+	font-family: arial, sans-serif;
 	font-size: 17px;
 	color:black;
 	background-color: white;
@@ -25,22 +45,22 @@ p {
 	margin: 20px 10px 0px 20px;
 }
 
-div {
-	font-size: 50px;
-	font-family: Lithos pro;
+.project div {
+	font-size: 30px;
+	font-family: arial;
 	text-align: center;
 	line-height: 90px;
-	width: 80px;
-	height: 80px;
+	width: 75px;
+	height: 75px;
 	color: #555;
-	background-color: #999;
-	margin: 20px 0px 150px 20px;
+	background-color: #CCCCCC;
+	margin: 20px 0px 80px 20px;
 	padding: 20px;
 
 	float: left;
 }
 
-div:hover {
+.project div:hover {
 	background-color: black;
 	color: white;
 	font-size: 30px;
@@ -48,13 +68,15 @@ div:hover {
 }
 
 #special {
-	background-color: #FFDAB9;
+	background-color: orangered;
 }
 
 #link {
-	width: 220px;
+	width: 255px;
 	height: 80px;
-	background-color: #999;
+	background-color: orangered;
+	color: black;
+	font-weight: bold;
 	font-size: 18px;
 	margin: auto 10px;
 	padding: 20px;
@@ -66,13 +88,22 @@ div:hover {
 
 #link:hover {
 	background-color: black;
-	color: white;
+	color: orangered;
 	font-size: 20px;
-	padding: 30px;
+	padding: 25px;
 }
 
 img {
 	width: 1000px;
 	font-family: monospace;
-	margin: 20px 10px 150px 20px;
+	margin: 20px 10px 80px 20px;
+}
+
+hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 5em;
+    border-style: inset;
+    border-width: 2px;
+    color: #CCCCCC;
 }
