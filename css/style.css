@@ -15,6 +15,7 @@ body {
 	font-weight: bold;
 	color: #CCCCCC;
 	padding-bottom: 30px;
+	border: 1px solid black;
 }
 
 .container p {
@@ -25,6 +26,7 @@ body {
 	clear: both;
 	padding-bottom: 20px;
 	margin-bottom: 40px;
+	border: 1px solid black;
 }
 
 .project h1 {
@@ -43,6 +45,7 @@ body {
 	clear: both;
 	padding-bottom: 20px;
 	margin: 20px 10px 0px 20px;
+	border: 1px solid black;
 }
 
 .project div {
